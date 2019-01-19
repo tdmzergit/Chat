@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context="tadumadzerati.chat.firebase.app.LoginActivity">
+
+
+    <EditText
+android:id="@+id/email"
+android:layout_width="match_parent"
+android:layout_height="40dp"
+android:layout_marginLeft="20dp"
+android:layout_marginRight="20dp"
+android:layout_marginBottom="150dp"
+android:hint="E-mail"
+android:textSize="16sp"
+android:inputType="textEmailAddress"
+android:drawableLeft="@drawable/ic_person_white_24dp"
+android:drawablePadding="12dp"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintTop_toTopOf="parent" />
+
+
+
+<EditText
+android:id="@+id/password"
+android:layout_width="match_parent"
+android:layout_height="40dp"
+android:layout_marginLeft="20dp"
+android:layout_marginTop="10dp"
+android:layout_marginRight="20dp"
+android:ems="10"
+android:hint="Password"
+android:textSize="16sp"
+android:maxLines="1"
+android:drawablePadding="12dp"
+android:drawableLeft="@drawable/ic_lock_white_24dp"
+android:inputType="textPassword"
+app:layout_constraintTop_toBottomOf="@+id/email" />
+
+
+<Button
+android:id="@+id/btnSignUp"
+style="@style/Theme.AppCompat.Light.NoActionBar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginLeft="50dp"
+android:layout_marginTop="50dp"
+android:layout_marginRight="50dp"
+android:text="Create Account"
+android:textColor="#1999D1"
+android:background="@drawable/button2"
+app:layout_constraintTop_toBottomOf="@+id/password" />
+
+<Button
+android:id="@+id/btnSignIn"
+style="@style/Theme.AppCompat.Light.NoActionBar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginLeft="50dp"
+android:layout_marginRight="50dp"
+android:layout_marginTop="10dp"
+android:text="Sign In"
+android:textColor="#1999D1"
+android:background="@drawable/button2"
+app:layout_constraintTop_toBottomOf="@+id/btnSignUp" />
+
+
+    </android.support.constraint.ConstraintLayout>

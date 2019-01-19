@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "209997990020",
+    "firebase_url": "https://loginapp-c4e84.firebaseio.com",
+    "project_id": "loginapp-c4e84",
+    "storage_bucket": "loginapp-c4e84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209997990020:android:91abc8859f2f2367",
+        "android_client_info": {
+          "package_name": "tadumadzerati.authentication.firebaseapp.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209997990020-lg2lkqvn4s3nuprbq7mks4ufmg5eqcog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8Z90unf3PaeldZ1eoK7VCxE-zyL1ahY4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
